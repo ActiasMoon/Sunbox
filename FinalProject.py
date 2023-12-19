@@ -10,8 +10,7 @@
     understandable manner. in addition, it helps citizens find out
     when their trash (with map location) is recycled.\n \n
     Pictured below is the dataset used for this project.
-'''
-'''
+
 Complaint
     In addition, I have a MASSIVE COMPLAINT ABOUT THE CSV FILES USED.
     I basically picked my CSV as soon as it was mentioned in class and most options were already taken up. So I had to
@@ -37,7 +36,7 @@ import fuzzywuzzy as fz
 from fuzzywuzzy import process
 import pydeck as pdk
 #Need to download
-path = "C:/Users/nenoc/Downloads/pythonProject1/"
+path = "C:/Users/nenoc/Downloads/Verycoolgithubfile/"
 df = pd.read_csv(path + "data.csv")
 #This is the part where I make a dictionary to count each repeated city.
 #By Mailing Neighbourhood, Recollect Date, Trashday, PWD District.
