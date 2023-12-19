@@ -38,7 +38,6 @@ import pydeck as pdk
 #Need to download
 url = 'https://media.githubusercontent.com/media/ActiasMoon/Sunbox/main/data.csv'
 df = pd.read_csv(url,on_bad_lines="skip",low_memory=False)
-st.write(df.columns)
 #This is the part where I make a dictionary to count each repeated city.
 #By Mailing Neighbourhood, Recollect Date, Trashday, PWD District.
 image = ("https://cdn.discordapp.com/attachments/664672681286828045/1186168819249577994/garbage-truck.png?ex=659244cc&is=657fcfcc&hm=8c39726978f03bcda5cadd48791a594434092da7cfcef0bcfe81dc4f707457b2&")
