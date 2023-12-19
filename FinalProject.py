@@ -68,7 +68,7 @@ def listify(column = "full_address"):
     return templist
 #Create Program to return trash schedule by address or ZIPCode.
 #Valid Num is necessary to create because isnumeric does not account for - signs unfortunately.
-def bringschedule(entry):
+def bringschedule(entry = 2210):
     if validnum(entry):
         entry = float(entry)
         tempdf = df.loc[df['zip_code'] == entry]
