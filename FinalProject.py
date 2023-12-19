@@ -2,7 +2,7 @@
     Name: Jack \n
     CS230: 5 \n
     Data: TRASH SCHEDULES BY ADDRESS (CSV) \n
-    URL:
+    URL:https://sunbox-cqfeqzrsjpnjsfpn3byxzb.streamlit.app/
     \n
     Description: Welcome to my streamlit website.
     This website analyzes data from the Analyze Boston database
