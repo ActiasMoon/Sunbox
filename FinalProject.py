@@ -36,7 +36,7 @@ import fuzzywuzzy as fz
 from fuzzywuzzy import process
 import pydeck as pdk
 #Need to download
-url = 'https://raw.https//github.com/ActiasMoon/Sunbox/blob/main/data.csv'
+url = 'https://raw.github.com/ActiasMoon/Sunbox/blob/main/data.csv'
 df = pd.read_csv(url,sep=',',on_bad_lines="skip",low_memory=False)
 st.write(df.columns)
 #This is the part where I make a dictionary to count each repeated city.
