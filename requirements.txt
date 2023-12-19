@@ -1,5 +1,5 @@
 streamlit
 pandas
-mathplotlib.pyplot
+matplotlib.pyplot
 fuzzywuzzy
 pydeck
